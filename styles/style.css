@@ -17,6 +17,7 @@ div{
   width: 60%;
   height: 60%;
   padding: 2em;
+  word-wrap: break-word;
 }
 
 p{
@@ -34,9 +35,38 @@ input[type="text"]{
   border-radius: 10px;
   border: 1px solid darkmagenta;
   color: darkmagenta;
+  font-family: inherit;
+  margin: 0;
 }
 
 input[type="submit"]{
   display: block;
   margin: 2em auto;
+  font-family: inherit;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: 1px solid darkmagenta;
+  color: darkmagenta;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  color: lavender;
+  background-color: darkmagenta;
+  transition: background-color 0.2s ease-in;
+}
+
+.warning{
+  background-color: tomato;
+  padding: 0.4em;
+  font-size: 1.2em;
+  color: darkred;
+}
+
+#message{
+  display: flex;
+  justify-content: center;
+  color: darkmagenta;
+  font-size: 2em;
 }
