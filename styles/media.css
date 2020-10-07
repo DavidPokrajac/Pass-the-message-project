@@ -1,0 +1,11 @@
+@media screen and (max-width: 750px){
+  .main{
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .main{
+    padding: 1em;
+  }
+}
